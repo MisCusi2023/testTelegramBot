@@ -32,7 +32,7 @@ jobs:
         # github.repository: repository 的名稱
         message: |
            ${{ github.actor }} created Releases: 
-           Releases Message: ${{ commit.ref }}
+           Releases Message: ${{ github.ref }}
            Repository: ${{ github.repository }}
 
            https://github.com/${{ github.repository }}/releases
