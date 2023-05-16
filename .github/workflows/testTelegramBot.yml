@@ -37,4 +37,4 @@ jobs:
 
            https://github.com/${{ github.repository }}/commit/${{github.sha}}
     - id: step1
-      run: curl -X POST "https://api.telegram.org/bot ${{ secrets.TOKEN }}/sendMessage" -d "chat_id=${{ secrets.ID }}&text=不用上班的程序员"
+      run: curl -X POST "https://api.telegram.org/bot6261980847:AAEJI1QfUqraMjwfvWsCeCD8YcXM2scgCnw/sendMessage" -d "chat_id=801683369&text=不用上班的程序员"
