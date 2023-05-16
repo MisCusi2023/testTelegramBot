@@ -5,7 +5,9 @@ name: Telegram Notification Push
 # 新增 tag、設定 release 等活動都會觸發
 on:
   push
-
+  #release:
+  # types: [published]
+  
 # 設定 job 的內容
 jobs:
 
