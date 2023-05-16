@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - env:
-          SECRETSID: ${{ secrets.ID }}
+          SECRETSID: ${{ variables.ID }}
           SECRETSTOKEN: ${{ secrets.TOKEN }}
         run: curl -X POST "https://api.telegram.org/bot${SECRETSTOKEN}/sendMessage" -d "chat_id=${SECRETSID}&text=不用上班的程序员2"
